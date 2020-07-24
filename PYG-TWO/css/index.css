@@ -1,0 +1,214 @@
+/* <!-- banner --> */
+
+.banner-outer .outer-main {
+  float: left;
+  margin: 10px 10px 0px;
+  width: 720px;
+  height: 456px;
+}
+.banner-outer .outer-main img {
+  width: 100%;
+  height: 100%;
+}
+.banner-outer .outer-other {
+  float: right;
+  margin-top: 10px;
+  width: 250px;
+}
+.outer-other .outer-other-hd {
+  line-height: 36px;
+  padding: 0 10px;
+  border: 1px solid #cccccc;
+}
+.outer-other-hd > span {
+  float: left;
+  font-size: 14px;
+}
+.outer-other-hd a {
+  float: right;
+}
+.outer-other-hd .icon-dibudaohanglan- {
+  position: relative;
+  top: -1.1px;
+}
+.outer-other .outer-other-bd {
+  padding-left: 10px;
+  line-height: 24px;
+  border: 1px solid #cccccc;
+  border-width: 0 1px;
+}
+.outer-other-bd .span-title {
+  font-weight: 700;
+}
+.outer-other .outer-other-ft {
+  border: 1px solid #cccccc;
+  border-width: 1px 0 0 1px;
+}
+.outer-other-ft li {
+  float: left;
+  width: 62.26px;
+  height: 72px;
+  text-align: center;
+  line-height: 100px;
+  border: 1px solid #cccccc;
+  border-width: 0 1px 1px 0;
+  position: relative;
+}
+.outer-other-ft .lite-icon {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  width: 29px;
+  height: 27px;
+}
+.outer-other-ft .lite-icon1 {
+  background: url(../images/sprite_03.png) no-repeat -15px -10px;
+}
+.outer-other-ft .lite-icon2 {
+  background: url(../images/sprite_03.png) no-repeat -78px -12px;
+}
+.outer-other-ft .lite-icon3 {
+  background: url(../images/sprite_03.png) no-repeat -140px -12px;
+}
+.outer-other-ft .lite-icon4 {
+  background: url(../images/sprite_03.png) no-repeat -204px -10px;
+}
+.outer-other-ft .lite-icon5 {
+  background: url(../images/sprite_03.png) no-repeat -15px -82px;
+}
+.outer-other-ft .lite-icon6 {
+  background: url(../images/sprite_03.png) no-repeat -78px -82px;
+}
+.outer-other-ft .lite-icon7 {
+  background: url(../images/sprite_03.png) no-repeat -141px -82px;
+}
+.outer-other-ft .lite-icon8 {
+  background: url(../images/sprite_03.png) no-repeat -205px -81px;
+}
+.outer-other-ft .lite-icon9 {
+  background: url(../images/sprite_03.png) no-repeat -15px -153px;
+}
+.outer-other-ft .lite-icon10 {
+  background: url(../images/sprite_03.png) no-repeat -78px -154px;
+}
+.outer-other-ft .lite-icon11 {
+  background: url(../images/sprite_03.png) no-repeat -140px -150px;
+}
+.outer-other-ft .lite-icon12 {
+  background: url(../images/sprite_03.png) no-repeat -204px -154px;
+}
+.outer-other .outer-other-img img {
+  margin-top: 5px;
+  width: 250px;
+  height: 74px;
+}
+
+/* <!-- 今日推荐 --> */
+.daily-rec {
+  margin-top: 10px;
+}
+.daily-rec .daily-title {
+  float: left;
+  width: 206px;
+  height: 162px;
+  background: #5c5251 url(../images/clock.png) no-repeat center;
+}
+.daily-rec .daily-main {
+  float: left;
+  padding: 15px 0;
+  background-color: #ebebeb;
+}
+.daily-main li {
+  float: left;
+  width: 248.51561737px;
+  height: 132px;
+  text-align: center;
+  position: relative;
+}
+.daily-main li::after {
+  content: "";
+  position: absolute;
+  top: 5%;
+  right: 0;
+  height: 90%;
+  width: 0px;
+  border-left: 1px solid #cccccc;
+}
+.daily-main li:last-child::after {
+  display: none;
+}
+.daily-main li img {
+  width: 90%;
+  height: 100%;
+}
+
+/* <!-- 商品模块 --> */
+.yourlike-hd > a {
+  float: right;
+}
+.wares-yourlike .yourlike-bd {
+  border: 1px solid #cccccc;
+}
+.yourlike-bd li {
+  float: left;
+}
+.yourlike-bd a {
+  display: block;
+  width: 199.67186737px;
+  height: 232px;
+}
+.yourlike-bd a img {
+  width: 199px;
+  height: 155px;
+}
+.yourlike-bd a .description {
+  padding: 0 36px;
+  position: relative;
+}
+.yourlike-bd a .description::after {
+  content: "";
+  width: 0;
+  height: 90%;
+  top: 5%;
+  right: 0;
+  border-right: 1px solid #cccccc;
+  position: absolute;
+}
+.yourlike-bd li:last-child .description::after {
+  display: none;
+}
+.yourlike-bd a .description0 {
+  border: none;
+}
+.description p {
+  color: #333333;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.description p:hover {
+  position: relative;
+  display: inline-block;
+  overflow: visible;
+  white-space: nowrap;
+  background-color: #e4e2e2;
+  z-index: 9;
+}
+.description span {
+  font-size: 14px;
+  color: #feacae;
+}
+.amus-bd .amus-bd0 {
+  float: left;
+  height: 404px;
+}
+.amus-bd .amus-bd1 {
+  width: 402px;
+}
+.amus-bd .amus-bd2 {
+  width: 228px;
+}
+.amus-bd .amus-bd3 {
+  width: 403px;
+}

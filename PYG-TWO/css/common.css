@@ -1,0 +1,266 @@
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-red {
+  color: #c81c1a;
+}
+.color-red {
+  color: #ea0014;
+}
+.main-red:hover {
+  color: #ea0014;
+}
+.line {
+  margin: 10px 0;
+  width: 1px;
+  height: 10px;
+  border: 0.5px solid #666666;
+}
+
+/* <!-- 导航栏部分 --> */
+.site-nav {
+  background-color: #f0f0f0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.site-nav .site-nav-bd {
+  line-height: 30px;
+}
+.site-nav-bd .site-nav-bd-l {
+  float: left;
+}
+.site-nav-bd-l a {
+  margin-right: 10px;
+}
+.site-nav-bd .site-nav-bd-r {
+  float: right;
+}
+.site-nav-bd-r li {
+  float: left;
+  margin: 0 15px;
+}
+.site-nav-bd-r .line {
+  margin: 10px 0;
+}
+.icon-jiantou {
+  position: relative;
+  top: -1px;
+}
+
+/* <!-- 头部 --> */
+.header-wrap {
+  padding: 54px 0 24px;
+  position: relative;
+}
+.header-wrap .logo-wrap {
+  float: left;
+  left: 0;
+  font-size: 0px;
+  background: url(../images/logo.png) no-repeat center;
+}
+.header-wrap .logo-wrap h1 a {
+  display: block;
+  width: 171px;
+  height: 62px;
+}
+.header-wrap .logo-wrap-ms {
+  float: left;
+  margin: 13px 0 0 10px;
+  font-size: 0px;
+  background: url(../images/miaosha.png) no-repeat center;
+}
+.header-wrap .logo-wrap-ms h1 a {
+  display: block;
+  width: 71px;
+  height: 32px;
+}
+.header-wrap .search-wrap {
+  position: absolute;
+  left: 349px;
+}
+.search-wrap .search-bd {
+  margin-bottom: 5px;
+}
+.search-bd .search-info {
+  float: left;
+  width: 454px;
+  height: 36px;
+  border: 1px solid #b2191b;
+  text-indent: 1em;
+}
+.search-bd .search-btn {
+  float: left;
+  width: 79px;
+  height: 36px;
+  border: none;
+  background-color: #b2191b;
+  color: #ffffff;
+}
+.search-btn .icon-sousuo {
+  font-size: 22px;
+  font-weight: 700;
+}
+.search-ft a {
+  margin: 0 10px;
+}
+.header-wrap .shopcar {
+  display: block;
+  float: right;
+  width: 139px;
+  padding: 10px 3px 10px 15px;
+  border: 1px solid #cccccc;
+  background-color: #f7f7f7;
+  margin-right: 64px;
+  cursor: pointer;
+  line-height: 15px;
+  position: relative;
+}
+.shopcar .logo-shopcar {
+  position: relative;
+  top: -1.5px;
+  display: inline-block;
+  vertical-align: bottom;
+  width: 25px;
+  height: 15px;
+  background: url(../images/icons.png) no-repeat -412px -89px;
+}
+.shopcar .site-sign {
+  position: absolute;
+  display: inline-block;
+  padding: 1px 5px 0px 4px;
+  color: #ffffff;
+  background-color: #f40014;
+  border-radius: 50% 50% 50% 0px;
+  top: -10px;
+  left: 105px;
+}
+
+.banner-nav {
+  border-bottom: 2px solid #b2191b;
+}
+.banner-nav .nav-title {
+  float: left;
+  width: 210px;
+  line-height: 44px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #b2191b;
+}
+
+/* 下拉框 */
+.outer-inner {
+  width: 210px;
+  float: left;
+}
+.outer-inner li {
+  line-height: 30px;
+  padding: 0.56px 10px 0.56px 20px;
+  background-color: #c81622;
+}
+.outer-inner li:hover {
+  background-color: #f7f7f7;
+}
+.outer-inner li:hover a,
+.outer-inner li:hover span {
+  color: #c81622;
+}
+.outer-inner li:hover a {
+  margin-left: 10px;
+  transition-duration: 0.5s;
+}
+.outer-inner li a,
+.outer-inner li span {
+  color: #ffffff;
+}
+.outer-inner li .icon-dibudaohanglan- {
+  float: right;
+  vertical-align: middle;
+}
+
+.nav-main li {
+  float: left;
+  margin-left: 44px;
+  line-height: 44px;
+  font-size: 16px;
+}
+
+/* <!-- 底部模块 --> */
+.floor {
+  background-color: #f5f5f5;
+}
+.floor .floor-hd {
+  border-bottom: 1px solid #cccccc;
+}
+.floor .floor-hd li {
+  float: left;
+  width: 240px;
+  height: 108px;
+  padding: 34px 0;
+  position: relative;
+}
+.floor .floor-hd .bgc {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  top: 26px;
+  left: 36px;
+}
+.floor .floor-hd p {
+  margin-left: 86px;
+}
+.floor .floor-hd .p1 {
+  font-weight: 700;
+}
+.floor .floor-hd .bgc1 {
+  background: url(../images/icons.png) no-repeat -253px -3px;
+}
+.floor .floor-hd .bgc2 {
+  background: url(../images/icons.png) no-repeat -255px -54px;
+}
+.floor .floor-hd .bgc3 {
+  background: url(../images/icons.png) no-repeat -257px -106px;
+}
+.floor .floor-hd .bgc4 {
+  background: url(../images/icons.png) no-repeat -258px -157px;
+}
+.floor .floor-hd .bgc5 {
+  background: url(../images/icons.png) no-repeat -258px -209px;
+}
+.floor .floor-bd {
+  border-bottom: 1px solid #cccccc;
+}
+.floor-bd ul {
+  float: left;
+  width: 196px;
+  padding: 10px 0 10px 50px;
+}
+.floor-bd ul .bgc-ewm {
+  width: 95px;
+  height: 95px;
+  background: url(../images/erweima_11.png);
+  position: relative;
+  left: -14px;
+}
+.floor-bd ul .bgc-p {
+  position: relative;
+  left: -1px;
+}
+.floor-ft {
+  text-align: center;
+  padding: 0 0 40px;
+}
+.floor-ft ul {
+  display: inline-block;
+}
+.floor-ft li {
+  float: left;
+}
+.floor-ft li a {
+  margin: 0 10px;
+}

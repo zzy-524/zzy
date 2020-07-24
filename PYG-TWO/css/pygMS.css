@@ -1,0 +1,79 @@
+/* <!-- 右侧导航栏 --> */
+.backtop {
+  position: fixed;
+  width: 48px;
+  height: 140px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  background: url(../images/icons.png) no-repeat -15px -14px;
+  background-position: -4px 80px;
+  color: #b2191b;
+  padding: 10px 0 0;
+  text-align: center;
+  font-size: 14px;
+  right: 50%;
+  transform: translateX(660px);
+}
+.backtop .icon-shangjiantou {
+  font-size: 24px;
+  line-height: 1;
+}
+/* <!-- 主体区域 --> */
+.main-title {
+  height: 120px;
+  margin-bottom: 20px;
+  background: url(../uploads/bg_03.png) no-repeat center;
+}
+.main-main li {
+  float: left;
+  width: 290px;
+  height: 447px;
+  margin: 0 13px 13px 0;
+}
+.main-main li:nth-child(4n) {
+  margin-right: 0;
+}
+.main-main .action {
+  border-top: 1px solid #ea0014;
+}
+.main-main li img {
+  width: 290px;
+  margin-top: 10px;
+}
+.main-main li p {
+  padding: 0 20px;
+}
+.main-main li .p1 {
+  height: 40px;
+}
+.main-main li p .span1 {
+  font-size: 20px;
+}
+.main-main li p .span2 {
+  text-decoration: line-through;
+}
+.main-main li p .jdt-w {
+  display: inline-block;
+  width: 130px;
+  height: 12px;
+  border-radius: 6px;
+  border: 1px solid #cccccc;
+  position: relative;
+  top: 1px;
+}
+.jdt-w .jdt-n {
+  display: block;
+  width: 87%;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #ea0014;
+}
+.main-main a {
+  display: block;
+  width: 290px;
+  height: 50px;
+  background-color: #b2191b;
+  text-align: center;
+  line-height: 50px;
+  color: #ffffff;
+}

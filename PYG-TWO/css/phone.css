@@ -1,0 +1,83 @@
+/* <!-- 下拉框部分 --> */
+.banner-nav .nav-title {
+  position: relative;
+}
+.banner-nav .nav-title .outer-inner {
+  padding-top: 2px;
+  position: absolute;
+  font-size: 12px;
+  text-align: left;
+  display: none;
+  z-index: 9;
+}
+.banner-nav .nav-title:hover .outer-inner {
+  display: block;
+}
+
+/* <!-- 手机详情页 --> */
+.PhoNetInfo {
+  margin-top: 16px;
+}
+.PhoNetInfo-l {
+  float: left;
+  height: 590px;
+}
+.PhoNetInfo-l .pho-list {
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+}
+.pho-list .icon-dibudaohanglan- {
+  position: relative;
+  top: -1px;
+}
+.PhoNetInfo-l .pho-info {
+  text-align: center;
+}
+.pho-info > img {
+  margin: 34px 0 90px;
+}
+.PhoNetInfo-l .pho-choice {
+  height: 57px;
+  padding: 2px 38px;
+  position: relative;
+}
+.PhoNetInfo-l .pho-choice li {
+  float: left;
+  width: 56px;
+  height: 54px;
+  text-align: center;
+}
+.PhoNetInfo-l .pho-choice::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 34px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  background: url(../images/arrow.png) no-repeat center;
+}
+.PhoNetInfo-l .pho-choice::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 34px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  background: url(../images/arrow-r.png) no-repeat center;
+}
+.PhoNetInfo-l .pho-share {
+  margin-top: 10px;
+  text-align: center;
+}
+.pho-share .icon-fenxiang,
+.pho-share .icon-follow {
+  color: #ea0014;
+}
+.pho-share .iconfont {
+  margin-left: 15px;
+  position: relative;
+  top: -2px;
+}
